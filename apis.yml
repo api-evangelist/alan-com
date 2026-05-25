@@ -1,0 +1,76 @@
+aid: alan-com
+name: Alan
+description: >-
+  Alan is a Paris-based digital health insurance and wellness company founded
+  in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the
+  first independent health insurance provider licensed in France in over
+  fifty years and offers an integrated product combining complementary
+  health insurance ("mutuelle"), prevention, and care delivery through a
+  single mobile and web experience. Alan's product surface includes group
+  and individual health plans (Alan Santé), retirement plans (Alan Dolce
+  Vita), public-sector and self-employed offerings, an HR/benefits admin
+  dashboard for employers, an in-house telehealth and chat-care service
+  (Clinique Alan) staffed by salaried clinicians, a gamified prevention and
+  step-tracking program (Alan Play / Alan Mind), and vision/optical
+  benefits with zero out-of-pocket pricing. The company reports over one
+  million members and roughly 33,000 client businesses, operates in France,
+  Belgium, and Spain, and reached a reported €5B valuation in its 2026
+  Series F round. Engineering and product practice is documented publicly
+  on the Alan Product and Technical Blog at medium.com/alan, and a small
+  portfolio of internal-tools and design assets (most notably
+  react-native-fast-shadow and the Alan Sans typeface) is open-sourced on
+  github.com/alan-eu. Alan does not publish a public-facing developer API,
+  OpenAPI specification, or SDK; all member and employer interactions
+  happen through Alan's first-party apps and the HR/benefits dashboard.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Health Insurance
+  - Digital Health
+  - Healthtech
+  - Insurance
+  - Mutuelle
+  - Employee Benefits
+  - Telehealth
+  - Prevention
+  - Wellness
+  - Mental Health
+  - France
+  - Europe
+url: https://raw.githubusercontent.com/api-evangelist/alan-com/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://alan.com/en
+  - type: Website
+    url: https://alan.com
+  - type: BusinessModel
+    url: https://alan.com/en/business-model
+  - type: LeadershipPrinciples
+    url: https://alan.com/en/leadership-principles
+  - type: ESG
+    url: https://alan.com/en/esg
+  - type: PressRoom
+    url: https://alan.com/en/about/press-room
+  - type: Blog
+    url: https://medium.com/alan
+  - type: GitHub
+    url: https://github.com/alan-eu
+  - type: Careers
+    url: https://jobs.ashbyhq.com/alan
+  - type: Contact
+    url: mailto:contact@alan.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/alan-assurances
+  - type: Twitter
+    url: https://twitter.com/avec_alan
+  - type: Facebook
+    url: https://www.facebook.com/withalan
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
