@@ -45,6 +45,10 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/alan-com-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/alan-com-domain-security.yml
   - type: Website
     url: https://alan.com/en
   - type: Website
