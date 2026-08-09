@@ -1,0 +1,23 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://alan.com/.well-known/*
+host: https://alan.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  content_type: text/plain
+  file: alan-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 200
+  content_type: text/html
+  note: SPA catch-all HTML, not a valid OIDC discovery document
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 200
+  content_type: text/html
+  note: SPA catch-all HTML, not a valid authorization-server metadata document
+- path: /.well-known/api-catalog             # RFC 9727
+  status: 200
+  content_type: text/html
+  note: SPA catch-all HTML, not a valid api-catalog document
+- path: /.well-known/ai-plugin.json
+  status: 404
