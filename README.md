@@ -1,4 +1,4 @@
-# alan-com
+# Alan
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alan — French digital health insurance, prevention, and care platform (no public developer API)
+Alan is a Paris-based digital health insurance and wellness company founded in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the first independent health insurance provider licensed in France in over fifty years and offers an integrated product combining complementary health insurance ("mutuelle"), prevention, and care delivery through a single mobile and web experience. Alan's product surface includes group and individual health plans (Alan Santé), retirement plans (Alan Dolce Vita), public-sector and self-employed offerings, an HR/benefits admin dashboard for employers, an in-house telehealth and chat-care service (Clinique Alan) staffed by salaried clinicians, a gamified prevention and step-tracking program (Alan Play / Alan Mind), and vision/optical benefits with zero out-of-pocket pricing. The company reports over one million members and roughly 33,000 client businesses, operates in France, Belgium, and Spain, and reached a reported €5B valuation in its 2026 Series F round. Engineering and product practice is documented publicly on the Alan Product and Technical Blog at medium.com/alan, and a small portfolio of internal-tools and design assets (most notably react-native-fast-shadow and the Alan Sans typeface) is open-sourced on github.com/alan-eu. Alan does not publish a public-facing developer API, OpenAPI specification, or SDK; all member and employer interactions happen through Alan's first-party apps and the HR/benefits dashboard.
+
+**Areas:** Health Insurance · Digital Health · Health Tech · Insurance · Mutuelle · Employee Benefits · Telehealth · Prevention · Wellness · Mental Health · France · Europe
+
+## Alan on APIs.io
+
+Everything profiled for Alan is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alan-com/](https://apis.io/providers/alan-com/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alan Com Domain Security](https://apis.io/security/alan-com/alan-com-domain-security/)
+- [Alan Com Vulnerability Disclosure](https://apis.io/security/alan-com/alan-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alan.com/en)
+- [Blog](https://medium.com/alan)
+- [Security](https://alan.com/.well-known/security.txt)
+
+## API Evangelist rating
+
+**Kin Score 5.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.5** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alan-com/](https://apis.io/providers/alan-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alan: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alan-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
